@@ -2,3 +2,5 @@ node_modules
 
 *.iml
 .idea
+
+handle-fs-error.log

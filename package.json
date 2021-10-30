@@ -10,6 +10,9 @@
     "start:err": "node examples/err.js",
     "start:err:format": "node examples/err.js | node_modules/.bin/bunyan",
     "start:err:json": "node examples/err.js | node_modules/.bin/bunyan -j",
+    "start:handle-fs-error": "node examples/handle-fs-error.js",
+    "start:handle-fs-error:format": "node examples/handle-fs-error.js | node_modules/.bin/bunyan",
+    "start:handle-fs-error:json": "node examples/handle-fs-error.js | node_modules/.bin/bunyan -j",
     "start:hi": "node examples/hi.js",
     "start:hi:format": "node examples/hi.js | node_modules/.bin/bunyan",
     "start:hi:json": "node examples/hi.js | node_modules/.bin/bunyan -j"
