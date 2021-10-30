@@ -7,7 +7,11 @@
     "bunyan": "^1.8.15"
   },
   "scripts": {
+    "start:err": "node examples/err.js",
+    "start:err:format": "node examples/err.js | node_modules/.bin/bunyan",
+    "start:err:json": "node examples/err.js | node_modules/.bin/bunyan -j",
     "start:hi": "node examples/hi.js",
-    "start:hi:format": "node examples/hi.js | node_modules/.bin/bunyan "
+    "start:hi:format": "node examples/hi.js | node_modules/.bin/bunyan",
+    "start:hi:json": "node examples/hi.js | node_modules/.bin/bunyan -j"
   }
 }
