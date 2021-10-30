@@ -4,3 +4,4 @@ node_modules
 .idea
 
 handle-fs-error.log
+multi.log
