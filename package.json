@@ -27,6 +27,9 @@
     "start:long-running:json": "node examples/long-running.js | node_modules/.bin/bunyan -j",
     "start:multi": "node examples/multi.js",
     "start:multi:format": "node examples/multi.js | node_modules/.bin/bunyan",
-    "start:multi:json": "node examples/multi.js | node_modules/.bin/bunyan -j"
+    "start:multi:json": "node examples/multi.js | node_modules/.bin/bunyan -j",
+    "start:server": "node examples/server.js",
+    "start:server:format": "node examples/server.js | node_modules/.bin/bunyan",
+    "start:server:json": "node examples/server.js | node_modules/.bin/bunyan -j"
   }
 }
