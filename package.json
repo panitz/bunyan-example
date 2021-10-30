@@ -21,6 +21,9 @@
     "start:level:json": "node examples/level.js | node_modules/.bin/bunyan -j",
     "start:log-undefined-values": "node examples/log-undefined-values.js",
     "start:log-undefined-values:format": "node examples/log-undefined-values.js | node_modules/.bin/bunyan",
-    "start:log-undefined-values:json": "node examples/log-undefined-values.js | node_modules/.bin/bunyan -j"
+    "start:log-undefined-values:json": "node examples/log-undefined-values.js | node_modules/.bin/bunyan -j",
+    "start:long-running": "node examples/long-running.js",
+    "start:long-running:format": "node examples/long-running.js | node_modules/.bin/bunyan",
+    "start:long-running:json": "node examples/long-running.js | node_modules/.bin/bunyan -j"
   }
 }
