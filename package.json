@@ -15,6 +15,9 @@
     "start:handle-fs-error:json": "node examples/handle-fs-error.js | node_modules/.bin/bunyan -j",
     "start:hi": "node examples/hi.js",
     "start:hi:format": "node examples/hi.js | node_modules/.bin/bunyan",
-    "start:hi:json": "node examples/hi.js | node_modules/.bin/bunyan -j"
+    "start:hi:json": "node examples/hi.js | node_modules/.bin/bunyan -j",
+    "start:level": "node examples/level.js",
+    "start:level:format": "node examples/level.js | node_modules/.bin/bunyan",
+    "start:level:json": "node examples/level.js | node_modules/.bin/bunyan -j"
   }
 }
