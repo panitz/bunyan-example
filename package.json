@@ -1,0 +1,13 @@
+{
+  "name": "bunyan-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bunyan": "^1.8.15"
+  },
+  "scripts": {
+    "start:hi": "node examples/hi.js",
+    "start:hi:format": "node examples/hi.js | node_modules/.bin/bunyan "
+  }
+}
